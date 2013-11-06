@@ -12,12 +12,13 @@ Debug-DB: sqlite3
 
 1) collect/mine Data:
 
-	will use various databases of breast cancer paitent information to scrap together and implement a large dataset
+will use various databases of breast cancer paitent information to scrap together and implement a large dataset
+
 2) Using the data collected in step 1, the software will use the information to calculate proportional hazard risks.
 
 3) Webpage setup:
 
-	The frontend webpage will consist of a simple form for a patient/doctor to fill out including major medical information, as well as age and race. Once completed the form is sent to the server where the inputed information is run through a Cox model algorithm to estimate survival rate of the individual.
+The frontend webpage will consist of a simple form for a patient/doctor to fill out including major medical information, as well as age and race. Once completed the form is sent to the server where the inputed information is run through a Cox model algorithm to estimate survival rate of the individual.
 
 4) the inputed information will be used for farther analysis (would require follow up form to indicate whether patient survived)
 
@@ -37,7 +38,7 @@ TIMELINE:
 
 GITHUB REPO: 	https://github.com/yomanfosta/AUBreastPrognosis
 	
-	dev branch: https://github.com/yomanfosta/AUBreastPrognosis/tree/dev
+dev branch: https://github.com/yomanfosta/AUBreastPrognosis/tree/dev
 
 
 current end production site: http://fosterjosh.com/aubreast/
